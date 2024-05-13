@@ -23,24 +23,54 @@
         </header>
         <main>
             <form>
-                <label for="nomesobrenome">Nome e sobrenome</label>
-                <input type="text" id="nomesobrenome">
-        
-                <label for="email">Email</label>
-                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
-        
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
-
-                       <label for="mensagem">Mensagem</label>
-                       <textarea cols="70" rows="10" id="mensagem" class="imput-padrao"></textarea>
-        
-                <input type="submit" value="Enviar formulário">
-            </form>
-        </main>
-        <footer>
-            <img src="logo-branco.png" alt="Logo da Barbearia">
-            <p class="copyright">&copy; Copyright Barbearia Alura - 2024(guse)</p>
-        </footer>
-    </body>
-</html>
+                <label for= "nomesobrenome">Nome e Sobrenome</label>
+                <input type= "text" id= "nomesobrenome" class= "input-padrao">
+                
+                <label for= "email">Email</label>
+                <input type= "email" id="email" class="input-padrao" required placecholder="seuemail@dominio.com">
+                  
+                <input type= "text" id= "email" class= "input-padrao" >
+                <label for= "telefone">Telefone</label>
+                <input type= "tel" id= "telefone" class= "input-padrao" required plancecholder= "(xx)xxxxx-xxxx"
+                <input type= "text" id= "telefone" class= "input-padrao">
+                  
+                <label for= "menssagem">mensagem</label>
+                <textarea cols= "70" rows="10" id= "menssagem" class="imput-padrao"></textarea>
+                  <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email">
+                    <input type="radio" name="contato" value="email" id="radio-email">
+                    Email
+                </label>
+                      <div>
+                <p>Qual horário prefere ser atendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>
+                      <label class="checkbox">
+                <input type="submit" value="Enviar formulario class="enviar
+                Gostaria de receber nossas novidades por email?
+            </label>
+            
+                <label for="radio-telefone">
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone"> 
+                    Telefone
+                </label>
+            
+                <label for="radio-whatsapp">
+                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                    WhatsApp
+                </label>
+            </div>
+                <input type= "submit" value= "enviar formulario">
+              </form>
+            </main>
+                    <footer>
+                        <img src="logo-branco.png"  alt= "logo da barbearia">
+                        <p class="copyright">&copy; Barbearia Alura 2024(guse)</p>
+                    </footer>
+                </body>
+            </html>
