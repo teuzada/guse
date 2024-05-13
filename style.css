@@ -1,3 +1,7 @@
+{
+    margin: 0;
+    padding: 0;
+    
 body {
 	
 }
@@ -29,7 +33,7 @@ p {
 }
 
 em strong {
-	color: #FF0000;
+	color: #9900ffe3;
 }
 
 .itens {
@@ -51,16 +55,3 @@ ul {
 .imagem-beneficios {
 	width: 50%;
 }
-	
-header {
-	background: #BBBBBB;
-	padding: 20px 0;
-}
-
-.caixa {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
-}
-
-
