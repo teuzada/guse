@@ -99,8 +99,7 @@ footer {
 
 
 main {
-    width: 940px;
-    margin: 0 auto;
+    
 }
 
 form {
@@ -168,6 +167,12 @@ td, th {
 
 .imagem-beneficios {
 	width: 60%;
+}
+
+.conteudos-beneficios{
+       width: 640px;
+       margin: 0 auto;
+
 }
 
 .mapa {
