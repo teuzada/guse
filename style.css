@@ -6,7 +6,7 @@ body {
 }
 
 header {
-	background: #5c0060;
+	background: #BBBBBB;
 	padding: 20px 0;
 }
 
@@ -97,45 +97,66 @@ footer {
 	margin: 20px 0 0;
 }
 
-
 main {
-    
+	
 }
 
 form {
-    margin: 40px 0;
+	margin: 40px 0;
 }
 
-form label {
-    display:block;
-    font-size: 20px;
-    margin: 0 0 10px;
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
 }
 
-form input {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
 }
-.checkbox{
-    margin:20px 0;
+
+.checkbox {
+	margin: 20px 0;
 }
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
 table {
-    margin: 20px 0 40px;
+	margin: 20px 0 40px;
 }
 
 thead {
-    background: #555555;
-    color: white;
-    font-weight: bold;
+	background: #555555;
+	color: white;
+	font-weight: bold;
 }
 
 td, th {
-    border: 1px solid #000000;
-    padding: 8px 15px;
+	border: 1px solid #000000;
+	padding: 8px 15px;
 }
 
+
+/* css da página inicial */
 .banner {
 	width:100%;
 }
@@ -145,6 +166,13 @@ td, th {
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
 }
 
 .principal p {
@@ -169,42 +197,64 @@ td, th {
 	width: 60%;
 }
 
-.conteudos-beneficios{
-       width: 640px;
-       margin: 0 auto;
-
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
 }
 
-.lista-beneficios{
-	width: 40%
-        display: inline-block;
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
 	vertical-align: top;
 }
 
-.itens{
-    line-heigth: 1.5;
+.itens {
+	line-height: 1.5;
 }
 
-.itens:first-child{
-    font-weight: bold;
+.itens:first-child {
+	font-weight: bold;
 }
 
-.beneficios{
-     padding: 3em 0;
-     background: #888888
+.beneficios {
+	padding: 3em 0;
+	background: #888888;
 }
 
 .mapa {
-    padding: 3em 0;
-    background: linear-gradient(#FEFEFE,#888888);	
+	padding: 3em 0;
 }
 
 .mapa p {
-    margin: 0 0 2em;
-    text-align: center;
+	margin: 0 0 2em;
+	text-align: center;
 }
 
 .video {
-    width: 560px;
-    margin: 2em auto;
+	width: 560px;
+	margin: 2em auto;
 }
+
+
+/* Proxima aula
+
+*inserir na linha 171 
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+* inserir entre .mapa e .mapa p
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+Mudar a ordem de todas as classes mapa deixando após a classe utensilios
+
+inverter a posição das classes benefícios e imagem-beneficios
+
+*/
