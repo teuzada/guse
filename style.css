@@ -225,6 +225,11 @@ td, th {
 	padding: 3em 0;
 }
 
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
 .mapa p {
 	margin: 0 0 2em;
 	text-align: center;
