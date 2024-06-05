@@ -251,26 +251,20 @@ td, th {
 	margin: 2em auto;
 }
 
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
 
-/* Proxima aula
+    h1 {
+        text-align: center;
+    }
 
-*inserir na linha 171 
-.principal {
-	padding: 3em 0;
-	background: #FEFEFE;
-	width: 940px;
-	margin: 0 auto;
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
 }
-
-
-* inserir entre .mapa e .mapa p
-.mapa-conteudo {
-	width: 940px;
-	margin: 0 auto;
-}
-
-Mudar a ordem de todas as classes mapa deixando após a classe utensilios
-
-inverter a posição das classes benefícios e imagem-beneficios
-
-*/
